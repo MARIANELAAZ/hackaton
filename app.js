@@ -1,3 +1,5 @@
+// fetch
+
 const searchMovies = document.getElementById('mostrar-busqueda');
 
 const printMovies = (data) => {
@@ -22,3 +24,4 @@ search.addEventListener('search', () => {
     const valueSearch = search.value;
     mostrarBusqueda(`https://www.omdbapi.com/?s=${encodeURI(valueSearch)}&apikey=35ae330e`);
 });
+
